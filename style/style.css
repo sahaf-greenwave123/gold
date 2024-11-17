@@ -70,21 +70,31 @@ body {
 
 
 .siam{
-    padding: 190px 0 30px 0;
+    padding: 100px 0px 30px;
 }
 header {
-    background-image: url('../image/458974978_832758752278423_3315561197097359862_n\ eshikhon\ sahaf.jpg');  
+    background-image: url('../image/S.E.M\ invest\ fund\ backgrud.jpg');  
     background-size: cover;
     background-position: center;
-    height: 1160px;
+    height: 750px;
     
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.772);
+    background-blend-mode: multiply;
+    
+
+
+
 }
+/* .logo{
+    padding: 40px 1210px 0 0;
+} */
+
 header h1 {
-    font-size: 3em;
+    font-size: 80px;
     margin: 0;
 }
 nav {
@@ -137,12 +147,72 @@ nav {
 }
 
 
+/*....................================================mousebody SECTION================================................. */ 
+.white{
+    height: 265px;
+    width: 1520px;
+    clip-path: ellipse(50% 25% at 50% 99%);
+}
 
 
 
+.mousebody {
+    margin: 0;
+    padding: 14px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    
+}
 
+.scroll-down {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    border: 2px solid  #f3c14a;
+    border-radius: 30px;
+    box-sizing: border-box;
+    animation: bounce 2s infinite;
+}
 
+.scroll-down::after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color:  #f3c14a;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 2s infinite;
+}
 
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        top: 10px;
+    }
+    50% {
+        opacity: 0.5;
+        top: 20px;
+    }
+    100% {
+        opacity: 0;
+        top: 30px;
+    }
+}
 
 
 
@@ -404,7 +474,7 @@ nav {
 /* --------------.................==================== investment  Section======================.................----------------- */
 .more-investment{
     background-color: #f5f8fc;
-    padding: 100px 0px 140px 0;
+    padding: 100px 0px 0px 0;
     
 }
 
@@ -448,7 +518,15 @@ nav {
 
 
 /* --------------.................====================footer  Section======================.................----------------- */
+.notwhite{
+    
+        height: 265px;
+        width: 1520px;
+        clip-path: ellipse(50% 25% at 50% 99%);
+        padding: 0 0 0 0;
+        margin: 0 0 -5px 0;
 
+}
 
 .footerone{
     text-align: center;
