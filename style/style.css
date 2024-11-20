@@ -578,7 +578,7 @@ nav {
 
  .notwhite{
     
-    height: 265px;
+    height: 105px;
     width: 1520px;
     clip-path: ellipse(50% 25% at 50% 99%);
     padding: 0 0 0 0;
@@ -1118,7 +1118,7 @@ nav {
 
 .message-image{
     display: block;
-    margin: 0 0 0 0 ;
+    margin: -160px 0px 0 0;
     padding: 0 0 0 0 ;
 }
 
@@ -1244,7 +1244,7 @@ nav {
 
 .notwhite{
     
-    height: 125px;
+    height: 45px;
     width: 320px;
     clip-path: ellipse(50% 25% at 50% 99%);
     padding: 0 0 0 0;
@@ -1515,8 +1515,8 @@ nav {
     
     /*....................================================mousebody SECTION================================................. */ 
     .white{
-        height: 265px;
-        width: 425px;
+        height: 0px;
+        width: 0px;
         clip-path: ellipse(50% 25% at 50% 99%);
     }
     
@@ -1644,7 +1644,7 @@ nav {
 
     .about-text{
         display: block;
-        margin: 9px 0 9px -9px;
+        margin: 6px 0 6px -6px;
         padding: 10px 7px 9px 13px;
     
     }
@@ -1657,11 +1657,11 @@ nav {
     }
     .leftone{
         height: 160px;
-        width: 420px;
+        width: 368px;
     }
     .rightone{
         height: 130px;
-        width: 420px;
+        width: 368px;
     }
 
 
@@ -1851,7 +1851,7 @@ nav {
 
 .message-image{
     display: block;
-    margin: 0 0 0 0 ;
+    margin: -160px -10px 0 0;
     padding: 0 0 0 0 ;
 }
 
@@ -1985,8 +1985,8 @@ nav {
 
 .notwhite{
     
-    height: 125px;
-    width: 420px;
+    height: 0px;
+    width: 0px;
     clip-path: ellipse(50% 25% at 50% 99%);
     padding: 0 0 0 0;
     margin: 0 0 -5px 0;
@@ -2334,9 +2334,47 @@ nav {
 
 
 
+                                                            /* scrollbar */
+
+ /*....................================================webkit-scrollbar SECTION================================................. */ 
+
+ ::-webkit-scrollbar {
+    width: 5px; /* Width for vertical scrollbar */
+}
+
+/* Style the track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(#ffffff,#c0904d, black)/* Background color of the track */
+}
+
+/* Style the thumb */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#c0904d,white); /* Gradient color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .container {
-        padding: 10px;        
+              
         
     }
     .highlight-section h2 {
@@ -2559,7 +2597,7 @@ nav {
 
 .notwhite{
     
-    height: 125px;
+    height: 65px;
     width: 750px;
     clip-path: ellipse(50% 25% at 50% 99%);
     padding: 0 0 0 0;
@@ -2782,7 +2820,7 @@ nav {
 
 .notwhite{
     
-    height: 125px;
+    height: 100px;
     width: 1017px;
     clip-path: ellipse(50% 25% at 50% 99%);
     padding: 0 0 0 0;
@@ -2847,8 +2885,11 @@ nav {
 @media only screen and (min-width: 1441px) and (max-width:2560px){
 
 
-
-
+/* 
+    .white{
+        width: 0px;
+        height: 0px;
+    } */
 
 
 
