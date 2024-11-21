@@ -906,6 +906,26 @@ nav {
 
 
 
+                                                            /* scrollbar */
+
+ /*....................================================webkit-scrollbar SECTION================================................. */ 
+
+ ::-webkit-scrollbar {
+    width: 0px; /* Width for vertical scrollbar */
+}
+
+/* Style the track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(#ffffff,#c0904d, black)/* Background color of the track */
+}
+
+/* Style the thumb */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#c0904d,white); /* Gradient color */
+    border-radius: 0px; /* Rounded corners */
+}
+
+
 
 /* --------------.................====================About us Section======================.................----------------- */
 
@@ -924,11 +944,11 @@ nav {
 }
 .leftone{
     height: 160px;
-    width: 310px;
+    width: 305px;
 }
 .rightone{
     height: 130px;
-    width: 310px;
+    width: 305px;
 }
 
 
@@ -1061,7 +1081,7 @@ nav {
 }
 
 .containerone {
-    
+    width: 96%;
     height: 900px;
     display: block;
     justify-content: center;
@@ -1636,6 +1656,31 @@ nav {
 
 
 
+
+
+
+
+    
+
+
+                                                            /* scrollbar */
+
+ /*....................================================webkit-scrollbar SECTION================================................. */ 
+
+ ::-webkit-scrollbar {
+    width: 0px; /* Width for vertical scrollbar */
+}
+
+/* Style the track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(#ffffff,#c0904d, black)/* Background color of the track */
+}
+
+/* Style the thumb */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#c0904d,white); /* Gradient color */
+    border-radius: 0px; /* Rounded corners */
+}
 /* --------------.................====================About us Section======================.................----------------- */
 
 
@@ -1655,11 +1700,11 @@ nav {
     }
     .leftone{
         height: 160px;
-        width: 368px;
+        width: 350px;
     }
     .rightone{
         height: 130px;
-        width: 368px;
+        width: 350px;
     }
 
 
@@ -1792,7 +1837,7 @@ nav {
 }
 
 .containerone {
-    width: 99%;
+    width: 97%;
     height: 900px;
     display: block;
     justify-content: center;
@@ -1849,7 +1894,7 @@ nav {
 
 .message-image{
     display: block;
-    margin: -160px -10px 0 0;
+    margin: -160px 0px 0 0;
     padding: 0 0 0 0 ;
 }
 
@@ -1947,7 +1992,7 @@ nav {
     padding: 10px 2px 0px 2px;
         margin: 0px 0px -2px;
         height: 240px;
-        width: 365px;
+        width: 355px;
 
 }
 
@@ -1957,7 +2002,7 @@ nav {
     padding: 10px 2px 0px 2px;
     margin: 0px 0px -2px;
     height: 240px;
-    width: 365px;
+    width: 355px;
 }
 
 
@@ -2335,7 +2380,7 @@ nav {
  /*....................================================webkit-scrollbar SECTION================================................. */ 
 
  ::-webkit-scrollbar {
-    width: 5px; /* Width for vertical scrollbar */
+    width: 0px; /* Width for vertical scrollbar */
 }
 
 /* Style the track */
@@ -2346,7 +2391,7 @@ nav {
 /* Style the thumb */
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(#c0904d,white); /* Gradient color */
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 0px; /* Rounded corners */
 }
 
 
